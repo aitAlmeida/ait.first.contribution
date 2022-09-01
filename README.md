@@ -11,7 +11,7 @@ Lire des articles et des tutoriels peut aider, mais qu'y a-t-il de mieux que d'e
 
 Si vous n'avez pas git sur votre ordinateur, [ installez-le ]( https://help.github.com/articles/set-up-git/ ).
 
-## Embranche le répertoire (Fork)
+## Embranchez le répertoire (Fork)
 
 Embranchez ce répertoire en cliquant sur le bouton de fork en haut de la page.
 Cela va créer une copie du répertoire sur votre compte.
