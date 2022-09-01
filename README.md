@@ -55,3 +55,16 @@ Par exemple :
 git checkout -b add-ait-contrib
 ```
 (Le nom de la branche n'a pas besoin de contenir le terme *add*, mais c'est raisonnable de l'inclure parce que l'objectif de cette branche est d'ajouter votre nom à une liste.)
+
+## Effectuez les modifications nécessaires et engagez-les
+
+Maintenant, ouvrez le fichier `Contributors.md` dans un éditeur de texte, ajoutez-y votre nom, et enregistrez-le. Si vous ouvrez l'invite de commande et vous exécutez la commande  `git status`, vous verrez qu'il y a des modifications. Ajoutez ces modifications à la branche que vous venez de créer avec la commande  `git add` :
+```
+git add Contributors.md
+```
+
+Maintenant engagez ces modifications avec la commande `git commit`:
+```
+git commit -m "Add <votre-nom> to Contributors list"
+```
+en remplaçant `<votre-nom>` par votre nom.
