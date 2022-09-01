@@ -15,3 +15,24 @@ Si vous n'avez pas git sur votre ordinateur, [ installez-le ]( https://help.gith
 
 Embranchez ce répertoire en cliquant sur le bouton de fork en haut de la page.
 Cela va créer une copie du répertoire sur votre compte.
+
+## Clonez ce répertoire
+
+<img align="right" width="300" src="assets/clone.png" alt="clonez ce répertoire" />
+
+Maintenant, clonez ce répertoire sur votre ordinateur. Cliquez sur le bouton clone puis cliquez sur l'icone *copier dans le presse-papier*.
+
+Ouvrez un invite de commande et exécutez les commandes git suivantes :
+
+```
+git clone "l'url que vous venez de copier"
+```
+où "l'url que vous venez de copier" (sans les guillemets) est l'url du répertoire. Voir la section précédente afin d'obtenir l'url.
+
+<img align="right" width="300" src="assets/copy-to-clipboard.png" alt="copier l'URL dans le presse-papier" />
+
+Par exemple :
+```
+git clone https://github.com/aitAlmeida/ait.first.contribution.git 
+```
+où `votre-nom-d-utilisateur` est votre nom d'utilisateur GitHub. Ici vous êtes en train de copier le contenu du répertoire `first-contributions` depuis GitHub sur votre ordinateur.
