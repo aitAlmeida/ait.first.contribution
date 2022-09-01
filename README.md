@@ -16,7 +16,7 @@ Si vous n'avez pas git sur votre ordinateur, [ installez-le ]( https://help.gith
 Embranchez ce répertoire en cliquant sur le bouton de fork en haut de la page.
 Cela va créer une copie du répertoire sur votre compte.
 
-## Clonez ce répertoire
+## Clonez le répertoire
 
 <img align="right" width="300" src="assets/clone.png" alt="clonez ce répertoire" />
 
@@ -36,3 +36,22 @@ Par exemple :
 git clone https://github.com/aitAlmeida/ait.first.contribution.git 
 ```
 où `votre-nom-d-utilisateur` est votre nom d'utilisateur GitHub. Ici vous êtes en train de copier le contenu du répertoire `first-contributions` depuis GitHub sur votre ordinateur.
+
+
+## Créez une branche
+
+Déplacez-vous dans le répertoire du projet nouvellement cloné (si vous n'y êtes pas encore) :
+
+```
+cd ait.first.contributions
+```
+Maintenant créez une branche avec le commande `git checkout` :
+```
+git checkout -b <add-votre-nom>
+```
+
+Par exemple :
+```
+git checkout -b add-ait-contrib
+```
+(Le nom de la branche n'a pas besoin de contenir le terme *add*, mais c'est raisonnable de l'inclure parce que l'objectif de cette branche est d'ajouter votre nom à une liste.)
