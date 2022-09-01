@@ -68,3 +68,11 @@ Maintenant engagez ces modifications avec la commande `git commit`:
 git commit -m "Add <votre-nom> to Contributors list"
 ```
 en remplaçant `<votre-nom>` par votre nom.
+
+## Envoyer les modifications vers GitHub
+
+Envoyer vos modifications avec la commande `git push` :
+```
+git push origin <add-votre-nom>
+```
+en remplaçant `<add-votre-nom>` avec le nom de la branche précédemment créée.
