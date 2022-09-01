@@ -76,3 +76,17 @@ Envoyer vos modifications avec la commande `git push` :
 git push origin <add-votre-nom>
 ```
 en remplaçant `<add-votre-nom>` avec le nom de la branche précédemment créée.
+
+## Soumettez vos changements pour révision
+
+Si vous visitez votre répertoire sur Github, vous verrez un bouton  `Compare & pull request`.  Cliquez sur ce bouton.
+
+<img style="float: right;" src="assets/compare-and-pull.png" alt="create a pull request" />
+
+Maintenant soumettez la demande.
+
+<img style="float: right;" src="assets/submit-pull-request.png" alt="submit pull request" />
+
+Sous peu j'aurai fusionné toutes vos modifications avec la branche master de ce projet. Vous recevrez un mail de notification dès que la fusion sera effectuée.
+
+La branche master de votre embranchement ne subira pas de modification à cet instant. Pour que votre embranchement soit synchronisé avec le mien, suivez les étapes suivantes.
